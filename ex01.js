@@ -8,6 +8,7 @@ console.log(ola('Igor', 'Bom dia'))
 
 function saudacao(nome) {
     const cumprimentar = 'Ola'
-    return [cumprimentar, nome].join(', ').concat("!")
+    // return [cumprimentar, nome].join(', ').concat("!")
+    return [cumprimentar, nome].join(', ') + "!"
 }
 console.log(saudacao('Igor'))
