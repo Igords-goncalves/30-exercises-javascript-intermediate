@@ -6,11 +6,14 @@
 
 // Se !number ou !bolean return "booleano ou número esperados, mas o parâmetro é do tipo ..."
 
-function inversora(valor = 6) {
+function inversora(valor) {
     // console.log(valor === Number)
-    if (valor === Number) {
-        console.log(valor = valor + (- valor))
+    if (valor > 0 || valor < 0) {
+        console.log(valor * (- 1))
+    } else if (valor === true || valor === false) {
+        console.log(!!valor)
     }
     return valor
 }
-inversora()
+inversora(6)
+
