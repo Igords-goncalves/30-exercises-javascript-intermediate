@@ -11,3 +11,10 @@ objArray({
     ocupation: 'php developer',
     salary: 599.99
 })
+
+objArray({
+    name: 'Ana',
+    age: 21,
+    ocupation: 'javascript developer',
+    salary: 1999.99
+})
