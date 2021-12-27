@@ -3,7 +3,7 @@
 function somarElementosArray(array) {
     let soma = 0
     for (const key in array) {
-        soma = soma + array[key]
+        soma += array[key]
     }
     console.log(soma)
 }
